@@ -14,7 +14,7 @@ const categoryRoutes = require('../routes/categoryRoutes');
 const couponRoutes = require('../routes/couponRoutes');
 const { isAuth, isAdmin } = require('../config/auth');
 
-connectDB();
+//connectDB();
 const app = express();
 
 // We are using this for the express-rate-limit middleware
